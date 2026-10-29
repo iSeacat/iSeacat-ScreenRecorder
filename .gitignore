@@ -1,0 +1,19 @@
+# 运行产物 / 本地环境（便携包用户可运行 make_portable.py 重建）
+runtime/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# 输出与日志
+录制输出/
+*.log
+crash.log
+
+# 发布产物
+_release/
+*.zip
+
+# 系统
+Thumbs.db
+.DS_Store
